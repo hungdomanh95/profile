@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/hungdomanh/static/css/main.5f361e03.chunk.css",
-    "main.js": "/hungdomanh/static/js/main.a4a6a376.chunk.js",
-    "main.js.map": "/hungdomanh/static/js/main.a4a6a376.chunk.js.map",
-    "runtime-main.js": "/hungdomanh/static/js/runtime-main.8aa9c0a5.js",
-    "runtime-main.js.map": "/hungdomanh/static/js/runtime-main.8aa9c0a5.js.map",
-    "static/js/2.3dd43b9d.chunk.js": "/hungdomanh/static/js/2.3dd43b9d.chunk.js",
-    "static/js/2.3dd43b9d.chunk.js.map": "/hungdomanh/static/js/2.3dd43b9d.chunk.js.map",
-    "index.html": "/hungdomanh/index.html",
-    "precache-manifest.f7b676f6b2589ed770cd26faadbfe719.js": "/hungdomanh/precache-manifest.f7b676f6b2589ed770cd26faadbfe719.js",
-    "service-worker.js": "/hungdomanh/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/hungdomanh/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.3dd43b9d.chunk.js.LICENSE.txt": "/hungdomanh/static/js/2.3dd43b9d.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/hungdomanh/static/media/logo.5d5d9eef.svg"
+    "main.css": "/hungdomanh95.github.io/static/css/main.5f361e03.chunk.css",
+    "main.js": "/hungdomanh95.github.io/static/js/main.f9511795.chunk.js",
+    "main.js.map": "/hungdomanh95.github.io/static/js/main.f9511795.chunk.js.map",
+    "runtime-main.js": "/hungdomanh95.github.io/static/js/runtime-main.b0bde1f0.js",
+    "runtime-main.js.map": "/hungdomanh95.github.io/static/js/runtime-main.b0bde1f0.js.map",
+    "static/js/2.3dd43b9d.chunk.js": "/hungdomanh95.github.io/static/js/2.3dd43b9d.chunk.js",
+    "static/js/2.3dd43b9d.chunk.js.map": "/hungdomanh95.github.io/static/js/2.3dd43b9d.chunk.js.map",
+    "index.html": "/hungdomanh95.github.io/index.html",
+    "precache-manifest.36a9b9d8d14aed51fbc74f251a355215.js": "/hungdomanh95.github.io/precache-manifest.36a9b9d8d14aed51fbc74f251a355215.js",
+    "service-worker.js": "/hungdomanh95.github.io/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/hungdomanh95.github.io/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.3dd43b9d.chunk.js.LICENSE.txt": "/hungdomanh95.github.io/static/js/2.3dd43b9d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/hungdomanh95.github.io/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8aa9c0a5.js",
+    "static/js/runtime-main.b0bde1f0.js",
     "static/js/2.3dd43b9d.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.a4a6a376.chunk.js"
+    "static/js/main.f9511795.chunk.js"
   ]
 }
