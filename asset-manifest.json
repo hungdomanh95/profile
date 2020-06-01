@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/hungdomanh.github.io/static/css/main.5f361e03.chunk.css",
-    "main.js": "/hungdomanh.github.io/static/js/main.9a7b6770.chunk.js",
-    "main.js.map": "/hungdomanh.github.io/static/js/main.9a7b6770.chunk.js.map",
-    "runtime-main.js": "/hungdomanh.github.io/static/js/runtime-main.b27b63ca.js",
-    "runtime-main.js.map": "/hungdomanh.github.io/static/js/runtime-main.b27b63ca.js.map",
-    "static/js/2.3dd43b9d.chunk.js": "/hungdomanh.github.io/static/js/2.3dd43b9d.chunk.js",
-    "static/js/2.3dd43b9d.chunk.js.map": "/hungdomanh.github.io/static/js/2.3dd43b9d.chunk.js.map",
-    "index.html": "/hungdomanh.github.io/index.html",
-    "precache-manifest.307c4998443b9ecf7c00796009d4be7b.js": "/hungdomanh.github.io/precache-manifest.307c4998443b9ecf7c00796009d4be7b.js",
-    "service-worker.js": "/hungdomanh.github.io/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/hungdomanh.github.io/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.3dd43b9d.chunk.js.LICENSE.txt": "/hungdomanh.github.io/static/js/2.3dd43b9d.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/hungdomanh.github.io/static/media/logo.5d5d9eef.svg"
+    "main.css": "/hungdomanh/static/css/main.5f361e03.chunk.css",
+    "main.js": "/hungdomanh/static/js/main.a4a6a376.chunk.js",
+    "main.js.map": "/hungdomanh/static/js/main.a4a6a376.chunk.js.map",
+    "runtime-main.js": "/hungdomanh/static/js/runtime-main.8aa9c0a5.js",
+    "runtime-main.js.map": "/hungdomanh/static/js/runtime-main.8aa9c0a5.js.map",
+    "static/js/2.3dd43b9d.chunk.js": "/hungdomanh/static/js/2.3dd43b9d.chunk.js",
+    "static/js/2.3dd43b9d.chunk.js.map": "/hungdomanh/static/js/2.3dd43b9d.chunk.js.map",
+    "index.html": "/hungdomanh/index.html",
+    "precache-manifest.f7b676f6b2589ed770cd26faadbfe719.js": "/hungdomanh/precache-manifest.f7b676f6b2589ed770cd26faadbfe719.js",
+    "service-worker.js": "/hungdomanh/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/hungdomanh/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.3dd43b9d.chunk.js.LICENSE.txt": "/hungdomanh/static/js/2.3dd43b9d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/hungdomanh/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b27b63ca.js",
+    "static/js/runtime-main.8aa9c0a5.js",
     "static/js/2.3dd43b9d.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.9a7b6770.chunk.js"
+    "static/js/main.a4a6a376.chunk.js"
   ]
 }
