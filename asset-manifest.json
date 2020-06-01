@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/hungdomanh.github.io/static/css/main.5f361e03.chunk.css",
-    "main.js": "/hungdomanh.github.io/static/js/main.d1488618.chunk.js",
-    "main.js.map": "/hungdomanh.github.io/static/js/main.d1488618.chunk.js.map",
-    "runtime-main.js": "/hungdomanh.github.io/static/js/runtime-main.b27b63ca.js",
-    "runtime-main.js.map": "/hungdomanh.github.io/static/js/runtime-main.b27b63ca.js.map",
-    "static/js/2.3dd43b9d.chunk.js": "/hungdomanh.github.io/static/js/2.3dd43b9d.chunk.js",
-    "static/js/2.3dd43b9d.chunk.js.map": "/hungdomanh.github.io/static/js/2.3dd43b9d.chunk.js.map",
-    "index.html": "/hungdomanh.github.io/index.html",
-    "precache-manifest.dcc038d3ddb340d39545a915247cd9b3.js": "/hungdomanh.github.io/precache-manifest.dcc038d3ddb340d39545a915247cd9b3.js",
-    "service-worker.js": "/hungdomanh.github.io/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/hungdomanh.github.io/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.3dd43b9d.chunk.js.LICENSE.txt": "/hungdomanh.github.io/static/js/2.3dd43b9d.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/hungdomanh.github.io/static/media/logo.5d5d9eef.svg"
+    "main.css": "/static/css/main.5f361e03.chunk.css",
+    "main.js": "/static/js/main.bedcfd9a.chunk.js",
+    "main.js.map": "/static/js/main.bedcfd9a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d85bd72a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d85bd72a.js.map",
+    "static/js/2.3dd43b9d.chunk.js": "/static/js/2.3dd43b9d.chunk.js",
+    "static/js/2.3dd43b9d.chunk.js.map": "/static/js/2.3dd43b9d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.fcd4f0d7506fdecd65753439e4a1f5b1.js": "/precache-manifest.fcd4f0d7506fdecd65753439e4a1f5b1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.3dd43b9d.chunk.js.LICENSE.txt": "/static/js/2.3dd43b9d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b27b63ca.js",
+    "static/js/runtime-main.d85bd72a.js",
     "static/js/2.3dd43b9d.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.d1488618.chunk.js"
+    "static/js/main.bedcfd9a.chunk.js"
   ]
 }
