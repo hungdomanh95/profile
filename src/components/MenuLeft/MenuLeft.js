@@ -1,24 +1,37 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { itemMenu } from "../ListData";
+import { itemMenu,infor } from "../ListData";
+import Typing from "../../library/Typing";
+
 const MenuLeft = () => {
   const [status, setStatus] = useState(0);
+  const [showInfor, setShowInfor] = useState("");
+  const [statusInfor, setStatusInfor] = useState(false);
   const [corner, setCorner] = useState("rotate(45deg)");
+  // const [textAnimation, setTextAnimation] = useState("");
 
   const changeMenu = (item, index) => {
     setStatus(index);
     setCorner(item.corner);
     document.body.style.setProperty("--default-theme", `${item.color}`);
   };
+
+  const __showInfor=(item,index)=>{
+    setStatusInfor(true)
+    setShowInfor(item.infor)
+  }
+
   useEffect(() => {
     document.body.style.setProperty("--default-theme", "#f84b3e");
+ 
   }, []);
   return (
     <div className="menuLeft">
       <div className="menuLeft__title">
-        <h1>Đỗ Mạnh Hùng</h1>
-        <h1>Oliver</h1>
-
+          <h1>Oliver</h1>
+        <div className='text'>
+      <Typing data={[" Hi, I'm Hùng. "," I'm a Developer. "," I'm a Single. "]}>   </Typing>
+        </div>
       </div>
       <div className="menuLeft__menu">
         <div className="menuLeft__menu--content">
@@ -41,29 +54,32 @@ const MenuLeft = () => {
             );
           })}
         </div>
-        <div
-          className="menuLeft__menu--half"
-          style={{ transform: `${corner}` }}
-        >
+        <div className="menuLeft__menu--half" style={{ transform: `${corner}` }}>
           <div></div>
           <div className="number"></div>
           <div></div>
           <div></div>
-          <div className="menuLeft__menu--half--center"></div>
         </div>
+        <div className="menuLeft__menu--half--center">
+            <img src="images/logo-white.png"  alt="logo" />
+          </div>
       </div>
       <div className="menuLeft__footer">
         <h2>Let's work together</h2>
         <div className="menuLeft__footer__content">
-          <div className="menuLeft__footer__content--item">
-            <i className="fab fa-facebook-f" />
-          </div>
-          <div className="menuLeft__footer__content--item">
-            <i className="fa fa-envelope" />
-          </div>
-          <div className="menuLeft__footer__content--item">
-            <i className="fa fa-mobile-alt" />
-          </div>
+        {infor.map((item,index)=>{
+          return(
+            <div className="menuLeft__footer__content--item" key={index} onClick={()=>__showInfor(item,index)}  >
+              <a href={`${item.link}`} target="_blank">  
+                {item.icon}
+              </a>
+            </div>
+          )
+        })}
+        </div>
+       
+        <div className="infor" >
+          {statusInfor && showInfor}
         </div>
       </div>
     </div>

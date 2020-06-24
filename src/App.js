@@ -1,6 +1,6 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "./scss/App.scss";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import MenuLeft from "./components/MenuLeft/MenuLeft";
 import ContentRight from "./components/ContentRight/ContentRight";
 
