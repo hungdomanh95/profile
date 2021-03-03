@@ -6,7 +6,7 @@ import * as serviceWorker from "./serviceWorker";
 import rootReducer from "./redux/reducer";
 import thunk from "redux-thunk";
 import { createStore, applyMiddleware } from "redux";
-import translations from "./translate/Translate";
+// import translations from "./translate/Translate";
 import { Provider } from "react-redux";
 import { composeWithDevTools } from "redux-devtools-extension";
 import "./i18next";

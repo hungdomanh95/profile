@@ -6,7 +6,7 @@ import Blog from "./Blog";
 import Project from "./Project";
 import { useTranslation } from 'react-i18next';
 const ContentRight = () => {
-  const [t, i18n] = useTranslation();
+  const [trans, i18n] = useTranslation();
   const handleClick=(lang)=>{
     console.log('lang: ', lang);
     i18n.changeLanguage(lang);
@@ -20,14 +20,14 @@ const ContentRight = () => {
         <Route path="/blog" component={Blog} />
       </Switch>
 
+{/* 
+      <p>{trans('Thank.1')}</p>
+      <p>{trans('Why.1')}</p> */}
 
-      <p>{t('Thank.1')}</p>
-      <p>{t('Why.1')}</p>
 
-
-
+{/* 
       <button onClick={()=>handleClick('en')}>English</button>
-      <button onClick={()=>handleClick('vn')}>VietNam</button>
+      <button onClick={()=>handleClick('vn')}>VietNam</button> */}
     </div>
   );
 };
