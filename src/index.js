@@ -9,7 +9,7 @@ import { createStore, applyMiddleware } from "redux";
 // import translations from "./translate/Translate";
 import { Provider } from "react-redux";
 import { composeWithDevTools } from "redux-devtools-extension";
-import "./i18next";
+// import "./i18next";
 
 const store = createStore(
   rootReducer,

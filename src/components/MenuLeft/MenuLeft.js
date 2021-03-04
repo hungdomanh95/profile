@@ -3,41 +3,16 @@ import { Link } from "react-router-dom";
 import { itemMenu,infor } from "../ListData";
 import Typing from "../../library/Typing";
 
-// function getWindowDimensions() {
-//   const { innerWidth: widthScreen, innerHeight: heightScreen } = window;
-//   return {
-//     widthScreen,
-//     heightScreen
-//   };
-// }
 
-// function useWindowDimensions() {
-//   const [windowDimensions, setWindowDimensions] = useState(
-//     getWindowDimensions()
-//   );
-
-//   useEffect(() => {
-//     function handleResize() {
-//       setWindowDimensions(getWindowDimensions());
-//     }
-
-//     window.addEventListener("resize", handleResize);
-//     return () => window.removeEventListener("resize", handleResize);
-//   }, []);
-
-//   return windowDimensions;
-// }
 
 const MenuLeft = () => {
 
-  // const { heightScreen, widthScreen } = useWindowDimensions();
 
   const [status, setStatus] = useState(0);
   const [showInfor, setShowInfor] = useState("");
   const [statusInfor, setStatusInfor] = useState(false);
   const [corner, setCorner] = useState("rotate(45deg)");
   const [widthScreen, setWidthScreen] = useState(null);
-  // const [textAnimation, setTextAnimation] = useState("");
 
   const changeMenu = (item, index) => {
     setStatus(index);
@@ -52,32 +27,37 @@ const MenuLeft = () => {
 
   useEffect(() => {
     document.body.style.setProperty("--default-theme", "#f84b3e");
+    setWidthScreen(window.innerWidth)
     window.addEventListener('resize',()=>{
       setWidthScreen(window.innerWidth)
-  })
+    })
   }, []);
   return (
     <div className="menuLeft">
       <div className="menuLeft__title">
-          <h1>Oliver</h1>
+          <h1>DoHung</h1>
         <div className='text'>
       <Typing data={[" Hi, I'm Hùng. "," I'm a Developer. "]}>   </Typing>
         </div>
       </div>
-      <div className="menuLeft__menu" style={{width:widthScreen/4,height:widthScreen/4}}  >
+      <div className="menuLeft__menu" style={{width:widthScreen*0.25,height:widthScreen*0.25}}  >
         <div className="menuLeft__menu--content">
           {itemMenu.map((item, index) => {
             return (
               <Link
-                className={
-                  status === index? "menuLeft__menu--item active" : "menuLeft__menu--item" } key={index} to={item.path} style={item.style} onClick={() => changeMenu(item, index)}>
-                <div className="menuLeft__menu--item--icon" style={{fontSize:widthScreen/48}} >{item.icon}</div>
-                {item.name}
+                  className={ status === index? "menuLeft__menu--item active" : "menuLeft__menu--item" } 
+                  key={index} 
+                  to={item.path} 
+                  style={item.style} 
+                  onClick={() => changeMenu(item, index)}
+              >
+                <div className="menuLeft__menu--item--icon" style={{fontSize: widthScreen ? widthScreen/48 : 16 }} >{item.icon}</div>
+                <p style={{fontSize: widthScreen ? widthScreen/48 : 16 }} >{item.name}</p>
               </Link>
             );
           })}
         </div>
-        <div className="menuLeft__menu--half" style={{ transform: `${corner}`,width:widthScreen/4,height:widthScreen/4 }}>
+        <div className="menuLeft__menu--half" style={{ transform: `${corner}`,width:widthScreen*0.25,height:widthScreen*0.25 }}>
           <div></div>
           <div className="number"></div>
           <div></div>

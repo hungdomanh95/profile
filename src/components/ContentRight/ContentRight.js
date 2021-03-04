@@ -6,11 +6,10 @@ import Blog from "./Blog";
 import Project from "./Project";
 import { useTranslation } from 'react-i18next';
 const ContentRight = () => {
-  const [trans, i18n] = useTranslation();
-  const handleClick=(lang)=>{
-    console.log('lang: ', lang);
-    i18n.changeLanguage(lang);
-  }
+  // const [trans, i18n] = useTranslation();
+  // const handleClick=(lang)=>{
+  //   i18n.changeLanguage(lang);
+  // }
   return (
     <div className="contentRight">
       <Switch>

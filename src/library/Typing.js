@@ -1,7 +1,6 @@
 import React from 'react'
 import "./TypewriteEffect"
 const Typing = (props) => {
-    console.log('props: ', props);
     const varText=[
         props.children
     ]
